@@ -24,6 +24,8 @@ let package = Package(
         .target(
             name: "MyLibrary",
             dependencies: []),
-        .target(name: "Module"),
+        .target(
+            name: "Module",
+            dependencies: [])
     ]
 )
