@@ -7,6 +7,6 @@
 
 import Foundation
 
-public static func testLog() {
+public func testLog() {
     print("spm test")
 }
