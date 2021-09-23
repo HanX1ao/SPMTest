@@ -26,6 +26,8 @@ let package = Package(
             dependencies: []),
         .target(
             name: "Module",
-            dependencies: [])
+            dependencies: [],
+            path: "Sources/Module"
+            )
     ]
 )
